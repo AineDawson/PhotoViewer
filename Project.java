@@ -40,7 +40,7 @@ public class Project extends JFrame{
         menuBar.add(fileMenu);
         frame.setJMenuBar(menuBar);
         pic=new JLabel();
-        icon = new ImageIcon("IMG_9300.PNG");
+        icon = new ImageIcon();
         pic=new JLabel(icon);
         
         scroll=new JScrollPane(pic);
